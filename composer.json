@@ -1,0 +1,29 @@
+{
+  "name": "swotng/database",
+  "description": "If you are looking for database of academic domains that package is for you.",
+  "keywords": [
+    "domains",
+    "database",
+    "academic"
+  ],
+  "homepage": "https://github.com/kiler129/SwotNG-database",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Grzegorz Zdanowski",
+      "email": "grzegorz@noflash.pl",
+      "role": "Developer"
+    },
+    {
+      "name": "Lee Reilly",
+      "email": "lee@github.com",
+      "role": "Original Swot developer"
+    }
+  ],
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
