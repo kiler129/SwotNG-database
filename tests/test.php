@@ -139,28 +139,6 @@ function verifyNgFields($entryName, array $entryContents)
     $errors = 0;
     $isWildcard = false;
 
-
-    /*
-    "locations": [
-        {
-            "address": "Krakowskie Przedmieście 5, 00-068 Warszawa, Polska",
-            "gps": [52.2411513, 21.0114492],
-            "phone": "+48 22 826 21 14"
-        }
-    ]
-}
-
-    /**
-     *
-     * "blacklist": {
-     * "starts-with": {},
-     * "ends-with": {}
-     * },
-     * "verification": {
-     * "isVerified": false,
-     * }
-     */
-
     if (isset($entryContents['name'])) {
         if (!is_string($entryContents['name'])) {
             echo "\t- NG entry $entryName 'name' field is " . gettype($entryContents['name']) . " - expected string\n";
