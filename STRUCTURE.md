@@ -97,17 +97,17 @@ Since every programming language may require different approach rules presented 
 Let's imagine you have someone with e-mail: `john.doe@awesome-university.us.univ.org` and you wish to check if it's eligible for academic discount.
 
 **If you're lazy programmer and you just want to simplest check:**
-1. Extract domain part from email: `awesome-university.us.univ.org`
-2. Check if path `domains/valid/org/univ/us/awesome-university.json` exists - it doesn't, <strike>reject it</strike> read rest of the docs ;)
+  1. Extract domain part from email: `awesome-university.us.univ.org`
+  2. Check if path `domains/valid/org/univ/us/awesome-university.json` exists - it doesn't, <strike>reject it</strike> read rest of the docs ;)
 
 **If you want to properly implement checking:**
-1. Extract domain part from email: `awesome-university.us.univ.org`
-2. Check if path `domains/valid/org/univ/us/awesome-university.json` exists - it doesn't
-3. Check if path `domains/valid/org/univ/us.json` exists - it doesn't
-4. Check if path `domains/valid/org/univ.json` exists - file was found
-5. If you want simplest check you can stop now - e-mail is valid
-6. If you specifically want to know if domain just doesn't exist or it's just banned you can open `domains/_blacklist.json` and look for entry
-7. Open `domains/valid/org/univ.json` file and loop through `[blacklist][starts-with]` and `[blacklist][ends-with]` entries checking if `john.doe` begins/ends with any of them.
+  1. Extract domain part from email: `awesome-university.us.univ.org`
+  2. Check if path `domains/valid/org/univ/us/awesome-university.json` exists - it doesn't
+  3. Check if path `domains/valid/org/univ/us.json` exists - it doesn't
+  4. Check if path `domains/valid/org/univ.json` exists - file was found
+  5. If you want simplest check you can stop now - e-mail is valid
+  6. If you specifically want to know if domain just doesn't exist or it's just banned you can open `domains/_blacklist.json` and look for entry
+  7. Open `domains/valid/org/univ.json` file and loop through `[blacklist][starts-with]` and `[blacklist][ends-with]` entries checking if `john.doe` begins/ends with any of them.
 
 When implementing new projects please, **do not** check for `.txt` files. That method is obsoleted - these files are available for backward-compatibility reasons.
 
