@@ -36,7 +36,7 @@ Second one have to be valid JSON file containing at least following data:
         "ends-with": {}
     },
     "verification": {
-        "isVerified": false,
+        "is-verified": false,
     }
 }
 ```
