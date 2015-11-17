@@ -391,7 +391,8 @@ function verifyNgFields($entryName, array $entryContents)
             if (isset($entryContents['verification']['is-verified']) &&
                 is_bool($entryContents['verification']['is-verified'])
             ) {
-                if (!isset($entryContents['verification']['description']) &&
+                if ($entryContents['verification']['is-verified'] &&
+                    !isset($entryContents['verification']['description']) &&
                     !isset($entryContents['verification']['url'])
                 ) {
                     echo "\t- NG entry $entryName 'verification' contains 'is-verified' = true entry, but lacks required option 'description' or 'url'\n";
@@ -490,7 +491,7 @@ echo "=> Checking consistency between classic & NG databases\n";
 foreach ($classicDbEntries as $classicEntryName => $classicEntryValue) {
 
     if (!isset($ngDbEntries[$classicEntryName])) {
-        echo "\t- Entry $classicEntryName lacks NG record\n";
+        // echo "\t- Entry $classicEntryName lacks NG record\n";
         unset($ngDbEntries[$classicEntryName]);
         $errorsCount++;
 
