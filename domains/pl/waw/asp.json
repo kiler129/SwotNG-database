@@ -1,47 +1,47 @@
 {
-  "name": "Fine Arts Academy in Warsaw",
-  "is-wildcard": false,
-  "local-name": "Akademia Sztuk Pięknych w Warszawie",
-  "country": "PL",
-  "type": [
-    "public"
-  ],
-  "added": "2004-02-12T15:19:21+00:00",
-  "modified": "2004-02-12T15:19:21+00:00",
-  "automatic-validation": "2004-02-12T15:19:21+00:00",
-  "categories": [
-    "university"
-  ],
-  "users": [
-    "students",
-    "teachers",
-    "staff"
-  ],
-  "blacklist": {
-    "starts-with": {
-      "strona": {
-        "reason": "Webmaster address"
-      },
-      "rektorat": {
-        "reason": "Contact e-mail"
-      }
+    "name": "Fine Arts Academy in Warsaw",
+    "is-wildcard": false,
+    "local-name": "Akademia Sztuk Pięknych w Warszawie",
+    "country": "PL",
+    "type": [
+        "public"
+    ],
+    "added": "2013-12-23T09:33:41+01:00",
+    "modified": "2015-11-17T09:55:14+01:00",
+    "automatic-validation": "2004-02-12T15:19:21+00:00",
+    "categories": [
+        "university"
+    ],
+    "users": [
+        "students",
+        "teachers",
+        "staff"
+    ],
+    "blacklist": {
+        "starts-with": {
+            "strona": {
+                "reason": "Webmaster address"
+            },
+            "rektorat": {
+                "reason": "Contact e-mail"
+            }
+        },
+        "ends-with": {}
     },
-    "ends-with": {}
-  },
-  "website": "http://asp.waw.pl/",
-  "verification": {
-    "is-verified": true,
-    "url": "https://polon.nauka.gov.pl/opi/aa/rejestry/szkolnictwo",
-    "description": "On given website enter Akademia Sztuk Pięknych under Nazwa field, click button named Szukaj."
-  },
-  "locations": [
-    {
-      "address": "Krakowskie Przedmieście 5, 00-068 Warszawa, Polska",
-      "gps": [
-        52.2411513,
-        21.0114492
-      ],
-      "phone": "+48 22 826 21 14"
-    }
-  ]
+    "website": "http://asp.waw.pl/",
+    "verification": {
+        "is-verified": true,
+        "url": "https://polon.nauka.gov.pl/opi/aa/rejestry/szkolnictwo",
+        "description": "On given website enter Akademia Sztuk Pięknych under Nazwa field, click button named Szukaj."
+    },
+    "locations": [
+        {
+            "address": "Krakowskie Przedmieście 5, 00-068 Warszawa, Polska",
+            "gps": [
+                52.2411513,
+                21.0114492
+            ],
+            "phone": "+48 22 826 21 14"
+        }
+    ]
 }
