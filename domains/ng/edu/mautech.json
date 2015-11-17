@@ -1,0 +1,13 @@
+{
+  "name": "Modibbo Adama University of Technology",
+  "is-wildcard": false,
+  "added": "2015-07-23T15:15:04+02:00",
+  "modified": "2015-11-17T09:26:11+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

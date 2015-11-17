@@ -1,0 +1,13 @@
+{
+  "name": "Europ\u00e4ische Fachhochschule",
+  "is-wildcard": false,
+  "added": "2014-11-07T12:29:48+01:00",
+  "modified": "2015-11-17T09:23:53+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

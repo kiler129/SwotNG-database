@@ -1,0 +1,13 @@
+{
+  "name": "EPHEC - \u00c9cole Pratique des Hautes \u00c9tudes Commerciales",
+  "is-wildcard": false,
+  "added": "2014-10-27T16:27:46+01:00",
+  "modified": "2015-11-17T09:23:22+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

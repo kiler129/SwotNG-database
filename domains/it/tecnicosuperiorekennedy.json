@@ -1,0 +1,13 @@
+{
+  "name": "Istituto Tecnico Superiore Kennedy",
+  "is-wildcard": false,
+  "added": "2014-09-28T18:50:24+02:00",
+  "modified": "2015-11-17T09:25:38+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

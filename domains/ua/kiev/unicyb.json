@@ -1,0 +1,13 @@
+{
+  "name": "Faculty of Cybernetics of Taras Shevchenko National University of Kyiv",
+  "is-wildcard": false,
+  "added": "2015-04-21T10:07:35+02:00",
+  "modified": "2015-11-17T09:27:03+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

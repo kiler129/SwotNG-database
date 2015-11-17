@@ -1,0 +1,13 @@
+{
+  "name": "Tilman-Riemenschneider-Gymnasium Osterode am Harz",
+  "is-wildcard": false,
+  "added": "2015-06-07T16:09:06+02:00",
+  "modified": "2015-11-17T09:23:58+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

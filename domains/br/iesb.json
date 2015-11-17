@@ -1,0 +1,13 @@
+{
+  "name": "Centro Universitario IESB",
+  "is-wildcard": false,
+  "added": "2015-03-30T02:10:10+02:00",
+  "modified": "2015-11-17T09:23:26+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

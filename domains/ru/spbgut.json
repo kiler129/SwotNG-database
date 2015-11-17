@@ -1,0 +1,13 @@
+{
+  "name": "The Bonch-Bruevich St. Petersburg State University of Telecommunications",
+  "is-wildcard": false,
+  "added": "2015-04-11T19:12:56+02:00",
+  "modified": "2015-11-17T09:26:42+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

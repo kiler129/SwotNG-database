@@ -1,0 +1,13 @@
+{
+  "name": "\u00c9cole d'ing\u00e9nieur g\u00e9n\u00e9raliste en informatique et technologies du num\u00e9rique",
+  "is-wildcard": false,
+  "added": "2014-11-16T13:21:59+01:00",
+  "modified": "2015-11-17T09:26:10+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

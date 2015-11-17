@@ -1,0 +1,13 @@
+{
+  "name": "H\u00f6here Technische Bundeslehr- und Versuchsanstalt St. P\u00f6lten",
+  "is-wildcard": false,
+  "added": "2015-08-25T14:27:18+02:00",
+  "modified": "2015-11-17T09:22:55+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

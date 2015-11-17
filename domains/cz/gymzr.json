@@ -1,0 +1,13 @@
+{
+  "name": "Gymn\u00e1zium \u017d\u010f\u00e1r nad S\u00e1zavou",
+  "is-wildcard": false,
+  "added": "2015-03-19T18:02:47+01:00",
+  "modified": "2015-11-17T09:23:51+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

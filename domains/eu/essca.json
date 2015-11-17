@@ -1,0 +1,13 @@
+{
+  "name": "\u00c9cole des Sciences Commerciales d'Angers",
+  "is-wildcard": false,
+  "added": "2015-06-06T21:32:57+02:00",
+  "modified": "2015-11-17T09:25:10+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

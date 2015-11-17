@@ -1,0 +1,13 @@
+{
+  "name": "Odisee",
+  "is-wildcard": false,
+  "added": "2015-01-25T20:00:48+01:00",
+  "modified": "2015-11-17T09:23:23+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Mathematics Society of The University of Waterloo",
+  "is-wildcard": false,
+  "added": "2015-04-07T22:03:24+02:00",
+  "modified": "2015-11-17T09:23:34+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

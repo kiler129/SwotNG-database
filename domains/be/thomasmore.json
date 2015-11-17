@@ -1,0 +1,13 @@
+{
+  "name": "Thomas More",
+  "is-wildcard": false,
+  "added": "2014-09-30T22:19:55+02:00",
+  "modified": "2015-11-17T09:23:23+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "La Cit\u00e9 Coll\u00e9giale",
+  "is-wildcard": false,
+  "added": "2014-11-04T17:46:36+01:00",
+  "modified": "2015-11-17T09:23:31+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

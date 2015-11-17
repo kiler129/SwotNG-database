@@ -1,0 +1,13 @@
+{
+  "name": "California Colleges",
+  "is-wildcard": false,
+  "added": "2014-09-24T19:04:50+02:00",
+  "modified": "2015-11-17T09:24:14+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Ural State Technical University",
+  "is-wildcard": false,
+  "added": "2015-09-14T09:11:12+02:00",
+  "modified": "2015-11-17T09:26:40+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Max-Planck-Institut f\u00fcr Informatik",
+  "is-wildcard": false,
+  "added": "2015-02-08T16:00:04+01:00",
+  "modified": "2015-11-17T09:23:59+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

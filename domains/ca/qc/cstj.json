@@ -1,0 +1,13 @@
+{
+  "name": "C\u00e9gep Saint-J\u00e9r\u00f4me",
+  "is-wildcard": false,
+  "added": "2015-02-04T20:34:43+01:00",
+  "modified": "2015-11-17T09:23:33+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

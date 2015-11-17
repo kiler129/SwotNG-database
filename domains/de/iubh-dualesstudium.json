@@ -1,0 +1,13 @@
+{
+  "name": "IUBH Duales Studium",
+  "is-wildcard": false,
+  "added": "2015-05-31T19:05:31+02:00",
+  "modified": "2015-11-17T09:23:58+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

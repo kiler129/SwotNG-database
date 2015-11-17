@@ -1,0 +1,13 @@
+{
+  "name": "Institut Saint Laurent Li\u00e8ge",
+  "is-wildcard": false,
+  "added": "2014-11-28T10:30:17+01:00",
+  "modified": "2015-11-17T09:23:23+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

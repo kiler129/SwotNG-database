@@ -1,0 +1,13 @@
+{
+  "name": "C\u00e9gep de Trois-Rivi\u00e8res",
+  "is-wildcard": false,
+  "added": "2015-04-24T21:48:10+02:00",
+  "modified": "2015-11-17T09:23:33+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

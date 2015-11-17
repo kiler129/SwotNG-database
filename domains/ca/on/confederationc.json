@@ -1,0 +1,13 @@
+{
+  "name": "Confederation College",
+  "is-wildcard": false,
+  "added": "2014-11-04T22:58:46+01:00",
+  "modified": "2015-11-17T09:23:32+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Universit\u00e9 de Picardie Jules-Verne",
+  "is-wildcard": false,
+  "added": "2013-12-23T09:33:41+01:00",
+  "modified": "2015-11-17T09:25:16+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

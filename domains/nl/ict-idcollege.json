@@ -1,0 +1,13 @@
+{
+  "name": "ROC ID College",
+  "is-wildcard": false,
+  "added": "2015-02-10T12:39:32+01:00",
+  "modified": "2015-11-17T09:26:12+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Indian Institute of Technology Kharagpur",
+  "is-wildcard": false,
+  "added": "2015-01-13T17:11:33+01:00",
+  "modified": "2015-11-17T09:25:30+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

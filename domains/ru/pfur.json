@@ -1,0 +1,13 @@
+{
+  "name": "People Friendship University of Russia",
+  "is-wildcard": false,
+  "added": "2015-05-31T21:52:33+02:00",
+  "modified": "2015-11-17T09:26:41+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

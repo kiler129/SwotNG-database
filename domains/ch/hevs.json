@@ -1,0 +1,13 @@
+{
+  "name": "HES-SO Valais, University of applied sciences of western Switzerland",
+  "is-wildcard": false,
+  "added": "2014-11-12T17:20:48+01:00",
+  "modified": "2015-11-17T09:23:35+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

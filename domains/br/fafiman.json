@@ -1,0 +1,13 @@
+{
+  "name": "Funda\u00e7\u00e3o Faculdade de Filosofia, Ci\u00eancias e Letras de Mandaguari (FAFIMAN)",
+  "is-wildcard": false,
+  "added": "2015-09-10T15:02:57+02:00",
+  "modified": "2015-11-17T09:23:26+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

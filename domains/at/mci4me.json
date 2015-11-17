@@ -1,0 +1,13 @@
+{
+  "name": "MCI-Management Center Innsbruck",
+  "is-wildcard": false,
+  "added": "2014-11-18T16:16:53+01:00",
+  "modified": "2015-11-17T09:22:55+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

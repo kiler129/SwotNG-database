@@ -1,0 +1,13 @@
+{
+  "name": "\u00c9cole des mines d'Al\u00e8s",
+  "is-wildcard": false,
+  "added": "2014-12-16T14:09:34+01:00",
+  "modified": "2015-11-17T09:25:16+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Chiba Institute of Technology",
+  "is-wildcard": false,
+  "added": "2014-09-30T11:58:36+02:00",
+  "modified": "2015-11-17T09:25:49+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

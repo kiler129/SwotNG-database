@@ -1,0 +1,13 @@
+{
+  "name": "\u0410\u0441\u0442\u0440\u0430\u0445\u0430\u043d\u0441\u043a\u0438\u0439 \u0438\u043d\u0436\u0435\u043d\u0435\u0440\u043d\u043e-\u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0442",
+  "is-wildcard": false,
+  "added": "2015-03-27T17:27:12+01:00",
+  "modified": "2015-11-17T09:26:36+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

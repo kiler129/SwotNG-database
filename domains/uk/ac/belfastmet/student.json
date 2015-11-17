@@ -1,0 +1,13 @@
+{
+  "name": "Belfast Metropolitan College",
+  "is-wildcard": false,
+  "added": "2015-04-11T17:00:03+02:00",
+  "modified": "2015-11-17T09:27:04+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

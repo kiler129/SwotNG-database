@@ -1,0 +1,13 @@
+{
+  "name": "HAMK University of Applied Sciences - H\u00e4meen Ammattikorkeakoulu",
+  "is-wildcard": false,
+  "added": "2014-12-11T13:00:05+01:00",
+  "modified": "2015-11-17T09:25:11+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

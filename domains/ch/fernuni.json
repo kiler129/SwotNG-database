@@ -1,0 +1,13 @@
+{
+  "name": "Universit\u00e4re Fernstudien Schweiz",
+  "is-wildcard": false,
+  "added": "2015-05-16T00:45:37+02:00",
+  "modified": "2015-11-17T09:23:35+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

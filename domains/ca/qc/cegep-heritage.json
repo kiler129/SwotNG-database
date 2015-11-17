@@ -1,0 +1,13 @@
+{
+  "name": "C\u00e9gep Heritage College",
+  "is-wildcard": false,
+  "added": "2015-01-18T22:45:04+01:00",
+  "modified": "2015-11-17T09:23:33+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

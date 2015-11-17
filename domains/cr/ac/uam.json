@@ -1,0 +1,13 @@
+{
+  "name": "Universidad Americana",
+  "is-wildcard": false,
+  "added": "2015-03-26T00:14:46+01:00",
+  "modified": "2015-11-17T09:23:50+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

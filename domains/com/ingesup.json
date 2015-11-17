@@ -1,0 +1,13 @@
+{
+  "name": "Ing\u00e9sup - \u00c9cole sup\u00e9rieure d'ing\u00e9nierie informatique",
+  "is-wildcard": false,
+  "added": "2014-10-16T15:34:39+02:00",
+  "modified": "2015-11-17T09:23:48+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

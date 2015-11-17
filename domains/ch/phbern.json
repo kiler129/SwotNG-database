@@ -1,0 +1,13 @@
+{
+  "name": "P\u00e4dagogische Hochschule Bern",
+  "is-wildcard": false,
+  "added": "2015-02-02T22:39:45+01:00",
+  "modified": "2015-11-17T09:23:35+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Instituto de Educaci\u00f3n Secundaria \"Francisco de los R\u00edos\"",
+  "is-wildcard": false,
+  "added": "2015-01-19T14:38:52+01:00",
+  "modified": "2015-11-17T09:25:07+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

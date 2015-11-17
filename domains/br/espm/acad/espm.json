@@ -1,0 +1,13 @@
+{
+  "name": "Escola Superior de Propaganda e Marketing",
+  "is-wildcard": false,
+  "added": "2015-02-17T19:16:52+01:00",
+  "modified": "2015-11-17T09:23:26+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

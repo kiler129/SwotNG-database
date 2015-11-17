@@ -1,0 +1,13 @@
+{
+  "name": "Universitat de Vic",
+  "is-wildcard": false,
+  "added": "2014-11-27T11:10:43+01:00",
+  "modified": "2015-11-17T09:25:01+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

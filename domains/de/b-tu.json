@@ -1,0 +1,13 @@
+{
+  "name": "Brandenburg University of Technology Cottbus\u2013Senftenberg",
+  "is-wildcard": false,
+  "added": "2014-09-11T11:00:33+02:00",
+  "modified": "2015-11-17T09:23:52+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

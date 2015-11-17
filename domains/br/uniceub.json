@@ -1,0 +1,13 @@
+{
+  "name": "Centro Universit\u00e1rio de Bras\u00edlia",
+  "is-wildcard": false,
+  "added": "2015-03-13T04:05:07+01:00",
+  "modified": "2015-11-17T09:23:29+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

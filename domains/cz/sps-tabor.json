@@ -1,0 +1,13 @@
+{
+  "name": "St\u0159edn\u00ed pr\u016fmyslov\u00e1 \u0161kola strojn\u00ed a stavebn\u00ed T\u00e1bor",
+  "is-wildcard": false,
+  "added": "2015-08-20T14:53:56+02:00",
+  "modified": "2015-11-17T09:23:51+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

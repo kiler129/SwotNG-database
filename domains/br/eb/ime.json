@@ -1,0 +1,13 @@
+{
+  "name": "Instituto Militar de Engenharia",
+  "is-wildcard": false,
+  "added": "2014-11-10T14:11:06+01:00",
+  "modified": "2015-11-17T09:23:26+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

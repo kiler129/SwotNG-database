@@ -1,0 +1,13 @@
+{
+  "name": "Universidade Aberta de Lisboa",
+  "is-wildcard": false,
+  "added": "2014-11-11T14:15:11+01:00",
+  "modified": "2015-11-17T09:26:32+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

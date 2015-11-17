@@ -1,0 +1,13 @@
+{
+  "name": "Business and Hotel Management School",
+  "is-wildcard": false,
+  "added": "2013-12-23T09:33:41+01:00",
+  "modified": "2015-11-17T09:23:35+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

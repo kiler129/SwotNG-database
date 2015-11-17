@@ -1,0 +1,13 @@
+{
+  "name": "Middlesex University Dubai",
+  "is-wildcard": false,
+  "added": "2015-05-05T21:00:45+02:00",
+  "modified": "2015-11-17T09:17:10+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

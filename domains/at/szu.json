@@ -1,0 +1,13 @@
+{
+  "name": "Schulzentrum HTL HAK Ungargasse",
+  "is-wildcard": false,
+  "added": "2014-10-08T15:00:13+02:00",
+  "modified": "2015-11-17T09:22:55+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

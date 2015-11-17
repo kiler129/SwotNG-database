@@ -1,0 +1,13 @@
+{
+  "name": "\u00c9cole Europ\u00e9enne des M\u00e9tiers de l'Internet",
+  "is-wildcard": false,
+  "added": "2014-10-24T22:57:03+02:00",
+  "modified": "2015-11-17T09:23:48+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

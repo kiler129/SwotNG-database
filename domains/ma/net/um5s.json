@@ -1,0 +1,13 @@
+{
+  "name": "University Mohamed 5 Souissi",
+  "is-wildcard": false,
+  "added": "2015-03-25T14:49:50+01:00",
+  "modified": "2015-11-17T09:25:59+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

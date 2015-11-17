@@ -1,0 +1,13 @@
+{
+  "name": "Thompson Rivers University",
+  "is-wildcard": false,
+  "added": "2015-03-23T23:38:01+01:00",
+  "modified": "2015-11-17T09:23:32+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

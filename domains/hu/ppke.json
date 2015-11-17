@@ -1,0 +1,13 @@
+{
+  "name": "P\u00e1zm\u00e1ny P\u00e9ter Catholic University",
+  "is-wildcard": false,
+  "added": "2013-12-23T09:33:41+01:00",
+  "modified": "2015-11-17T09:25:23+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

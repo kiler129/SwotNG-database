@@ -1,0 +1,13 @@
+{
+  "name": "Bordeaux Sciences Agro",
+  "is-wildcard": false,
+  "added": "2015-06-20T17:15:21+02:00",
+  "modified": "2015-11-17T09:25:12+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

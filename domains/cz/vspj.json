@@ -1,0 +1,13 @@
+{
+  "name": "College of Polytechnics Jihlava",
+  "is-wildcard": false,
+  "added": "2015-07-07T22:51:16+02:00",
+  "modified": "2015-11-17T09:23:52+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "National Aviation University",
+  "is-wildcard": false,
+  "added": "2015-02-20T17:17:37+01:00",
+  "modified": "2015-11-17T09:26:10+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

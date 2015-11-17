@@ -1,0 +1,13 @@
+{
+  "name": "Faculty of Information Technology, University Dzemal Bijedic of Mostar",
+  "is-wildcard": false,
+  "added": "2015-04-23T19:35:20+02:00",
+  "modified": "2015-11-17T09:22:57+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

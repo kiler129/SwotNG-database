@@ -1,0 +1,13 @@
+{
+  "name": "Systems Security Laboratory, University of Piraeus",
+  "is-wildcard": false,
+  "added": "2015-02-05T15:24:57+01:00",
+  "modified": "2015-11-17T09:25:20+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

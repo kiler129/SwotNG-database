@@ -1,0 +1,13 @@
+{
+  "name": "Faculdade de Tecnologia Bandeirantes",
+  "is-wildcard": false,
+  "added": "2015-06-14T23:32:39+02:00",
+  "modified": "2015-11-17T09:23:25+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

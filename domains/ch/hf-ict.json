@@ -1,0 +1,13 @@
+{
+  "name": "H\u00f6here Fachschule f\u00fcr Informations- und Kommunikationstechnologie",
+  "is-wildcard": false,
+  "added": "2014-09-26T15:06:18+02:00",
+  "modified": "2015-11-17T09:23:35+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

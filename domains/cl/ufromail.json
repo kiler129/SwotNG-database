@@ -1,0 +1,13 @@
+{
+  "name": "Universidad de La Frontera",
+  "is-wildcard": false,
+  "added": "2014-11-05T05:58:22+01:00",
+  "modified": "2015-11-17T09:23:37+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

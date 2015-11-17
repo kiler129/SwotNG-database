@@ -1,0 +1,13 @@
+{
+  "name": "Obafemi Awolowo University",
+  "is-wildcard": false,
+  "added": "2015-01-13T21:57:25+01:00",
+  "modified": "2015-11-17T09:26:11+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

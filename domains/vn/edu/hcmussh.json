@@ -1,0 +1,13 @@
+{
+  "name": "Ho Chi Minh City University of Social Sciences and Humanities",
+  "is-wildcard": false,
+  "added": "2013-12-23T09:33:41+01:00",
+  "modified": "2015-11-17T09:27:12+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

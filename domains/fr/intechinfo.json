@@ -1,0 +1,13 @@
+{
+  "name": "IN'TECH INFO \u00c9cole sup\u00e9rieure d'informatique",
+  "is-wildcard": false,
+  "added": "2015-03-27T00:38:31+01:00",
+  "modified": "2015-11-17T09:25:15+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

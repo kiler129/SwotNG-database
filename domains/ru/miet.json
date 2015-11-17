@@ -1,0 +1,13 @@
+{
+  "name": "National Research University of Electronic Technology (MIET)",
+  "is-wildcard": false,
+  "added": "2014-09-28T17:05:22+02:00",
+  "modified": "2015-11-17T09:26:39+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

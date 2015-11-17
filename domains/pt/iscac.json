@@ -1,0 +1,13 @@
+{
+  "name": "Instituto Superior de Contabilidade e Administra\u00e7\u00e3o de Coimbra",
+  "is-wildcard": false,
+  "added": "2015-02-05T13:18:06+01:00",
+  "modified": "2015-11-17T09:26:31+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

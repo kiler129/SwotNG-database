@@ -1,0 +1,13 @@
+{
+  "name": "Haute \u00c9cole de Namur-Li\u00e8ge-Luxembourg (Henallux)",
+  "is-wildcard": false,
+  "added": "2015-01-30T12:52:09+01:00",
+  "modified": "2015-11-17T09:23:22+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

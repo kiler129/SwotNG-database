@@ -1,0 +1,13 @@
+{
+  "name": "Games Academy",
+  "is-wildcard": false,
+  "added": "2014-10-24T15:11:12+02:00",
+  "modified": "2015-11-17T09:23:56+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}

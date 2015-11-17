@@ -1,0 +1,13 @@
+{
+  "name": "Savonia UAS",
+  "is-wildcard": false,
+  "added": "2014-10-31T16:16:59+01:00",
+  "modified": "2015-11-17T09:25:11+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": false
+  }
+}
