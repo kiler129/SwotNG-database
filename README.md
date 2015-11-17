@@ -1,4 +1,5 @@
 # SwotNG database
+[![Build Status](https://travis-ci.org/kiler129/SwotNG-database.svg?branch=master)](https://travis-ci.org/kiler129/SwotNG-database)
 
 Did you ever tried implementing educational discounts? If your answer is affirmative you probably came across simple but not-so-trivial problem: which domains should I accept?
 [Lee Reilly](https://github.com/leereilly/swot) came with really nice solution called [Swot](https://github.com/leereilly/swot):
