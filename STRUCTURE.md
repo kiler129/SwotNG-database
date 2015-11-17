@@ -34,10 +34,10 @@ Currently school file (e.g. `domains/pl/waw/asp.json`) format is not closed, but
 ```json
 {
     "name": "Fine Arts Academy in Warsaw",
-    "isWildcard": false,
+    "is-wildcard": false,
     "local-name": "Akademia Sztuk Pięknych w Warszawie",
     "country": "PL",
-    "type": ["public"],
+    "types": ["public"],
     "added": "2004-02-12T15:19:21+00:00",
     "modified": "2004-02-12T15:19:21+00:00",
     "automatic-validation": "2004-02-12T15:19:21+00:00",
@@ -72,10 +72,10 @@ Currently school file (e.g. `domains/pl/waw/asp.json`) format is not closed, but
 
 Fields description:
   * `name*` - International name using ASCII characters.
-  * `isWildcard*` - Mandatory field containing information if current entry is single institution or wildcard entry.
+  * `is-wildcard*` - Mandatory field containing information if current entry is single institution or wildcard entry.
   * `local-name` - Name of school as appears on official documents.
   * `country` - [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) country code.
-  * `type` - Array, field denotes if it's `public` or `private` school. Since it's array it may contain both values.
+  * `types` - Array, field denotes if it's `public` or `private` school. Since it's array it may contain both values.
   * `added*` - Contains [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date and time of entry creation.
   * `modified*` - Contains [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date and time of last modification of an entry. If entry was never modified date will be the same as creation.
   * `automatic-validation` - Contains [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date and time of last automatic verification. **This denotes only verification of domain, not institution data.**

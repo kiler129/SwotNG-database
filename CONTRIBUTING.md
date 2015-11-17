@@ -28,7 +28,7 @@ Second one have to be valid JSON file containing at least following data:
 ```json
 {
     "name": "Fine Arts Academy in Warsaw",
-    "isWildcard": false,
+    "is-wildcard": false,
     "added": "2004-02-12T15:19:21+00:00",
     "modified": "2004-02-12T15:19:21+00:00",
     "blacklist": {
@@ -37,7 +37,7 @@ Second one have to be valid JSON file containing at least following data:
     },
     "verification": {
         "isVerified": false,
-    },
+    }
 }
 ```
 
