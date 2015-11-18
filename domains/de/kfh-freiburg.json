@@ -1,0 +1,15 @@
+{
+  "name": "Catholic University of Applied Sciences Freiburg",
+  "local-name": "Katholischen Hochschule Freiburg",
+  "is-wildcard": false,
+  "added": "2013-12-23T09:33:41+01:00",
+  "modified": "2015-11-18T02:55:37+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": true,
+    "url": "http://english.kh-freiburg.de/headermenu/contact/"
+  }
+}
