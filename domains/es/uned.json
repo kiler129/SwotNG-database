@@ -1,6 +1,6 @@
 {
   "name": "Universidad Nacional de Educaci\u00f3n a Distancia",
-  "is-wildcard": false,
+  "is-wildcard": true,
   "added": "2013-12-23T09:33:41+01:00",
   "modified": "2015-11-17T09:25:09+01:00",
   "blacklist": {
