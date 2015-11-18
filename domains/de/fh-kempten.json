@@ -1,0 +1,14 @@
+{
+  "name": "Fachhochschule Kempten, Hochschule f\u00fcr Technik und Wirtschaft",
+  "is-wildcard": false,
+  "added": "2013-12-23T09:33:41+01:00",
+  "modified": "2015-11-18T02:51:29+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": true,
+    "url": "http://www.hochschule-kempten.de/metanavigation/contact-us.html?L=1"
+  }
+}
