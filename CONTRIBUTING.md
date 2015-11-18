@@ -6,16 +6,16 @@ There's one rule: try not to screw it ;)
 Navigate to "Issues" tab and create new issue. It will be nice if you check if it isn't already there ;)   
 You can use following issue template:
 ```
-School name in english: 
-School name in local language:
-Country: 
-School is public or private?
-What is level of education provided in school? Is it university/high-school/college?
-Who can get e-mail under school domain: 
-When someone graduates can he keep existing e-mail account? 
-School website address: http://
-How can we verify that school exists and it's real education institution?
-Where school campus/es is/are located: 
+**School name in english**: 
+**School name in local language:**
+**Country:** 
+**School is public or private?**
+**What is level of education provided in school? Is it university/high-school/college?**
+**Who can get e-mail under school domain:** 
+**When someone graduates can he keep existing e-mail account?** 
+**School website address:** http://
+**How can we verify that school exists and it's real education institution?** 
+**Where school campus/es is/are located:** 
 ```
 
 #### Adding entries
