@@ -4,7 +4,7 @@
 define('DOMAINS_DIRECTORY', realpath(__DIR__ . '/../domains'));
 define('DOMAINS_DIRECTORY_LENGTH', strlen(DOMAINS_DIRECTORY));
 define('BLACKLIST_FILE', DOMAINS_DIRECTORY . '/_blacklist.json');
-define('DOMAIN_REGEX', '/[a-z0-9][a-z0-9-]{0,61}[a-z0-9](?<gTLD>\.(biz|com|edu|gov|info|int|mil|name|net|org|aero|asia|cat|coop|jobs|mobi|museum|pro|tel|travel|arpa|root))?(?(gTLD)(\.(a[c-gil-oq-uwxz]|b[abd-jmnorstvwyz]|c[acdf-ik-oruvxyz]|d[ejkmoz]|e[ceghrstu]|f[ijkmor]|g[abd-ilmnp-tuwy]|h[kmnrtu]|i[delmnoq-t]|j[emop]|k[eghimnprwyz]|l[abcikr-uvy]|m[acdeghk-z]|n[acefgilopruzc]|om|p[ae-hk-nrstwy]|qa|r[eosuw]|s[a-eg-ortuvyz]|t[cdfghj-prtvwz]|u[agksyz]|v[aceginu]|w[fs]|y[etu]|z[amw]))?|(\.(a[c-gil-oq-uwxz]|b[abd-jmnorstvwyz]|c[acdf-ik-oruvxyz]|d[ejkmoz]|e[ceghrstu]|f[ijkmor]|g[abd-ilmnp-tuwy]|h[kmnrtu]|i[delmnoq-t]|j[emop]|k[eghimnprwyz]|l[abcikr-uvy]|m[acdeghk-z]|n[acefgilopruzc]|om|p[ae-hk-nrstwy]|qa|r[eosuw]|s[a-eg-ortuvyz]|t[cdfghj-prtvwz]|u[agksyz]|v[aceginu]|w[fs]|y[etu]|z[amw])))/i');
+define('DOMAIN_REGEX', '/([a-z0-9][a-z0-9-]{0,61}[a-z0-9])?(?<gTLD>\.(biz|com|edu|gov|info|int|mil|name|net|org|aero|asia|cat|coop|jobs|mobi|museum|pro|tel|travel|arpa|root))?(?(gTLD)(\.(a[c-gil-oq-uwxz]|b[abd-jmnorstvwyz]|c[acdf-ik-oruvxyz]|d[ejkmoz]|e[ceghrstu]|f[ijkmor]|g[abd-ilmnp-tuwy]|h[kmnrtu]|i[delmnoq-t]|j[emop]|k[eghimnprwyz]|l[abcikr-uvy]|m[acdeghk-z]|n[acefgilopruzc]|om|p[ae-hk-nrstwy]|qa|r[eosuw]|s[a-eg-ortuvyz]|t[cdfghj-prtvwz]|u[agksyz]|v[aceginu]|w[fs]|y[etu]|z[amw]))?|(\.(a[c-gil-oq-uwxz]|b[abd-jmnorstvwyz]|c[acdf-ik-oruvxyz]|d[ejkmoz]|e[ceghrstu]|f[ijkmor]|g[abd-ilmnp-tuwy]|h[kmnrtu]|i[delmnoq-t]|j[emop]|k[eghimnprwyz]|l[abcikr-uvy]|m[acdeghk-z]|n[acefgilopruzc]|om|p[ae-hk-nrstwy]|qa|r[eosuw]|s[a-eg-ortuvyz]|t[cdfghj-prtvwz]|u[agksyz]|v[aceginu]|w[fs]|y[etu]|z[amw])))/i');
 
 $errorsCount = 0;
 if (version_compare(PHP_VERSION, '5.5.0', '<')) {
@@ -47,11 +47,14 @@ function verifyBlacklist(array $blacklist)
     return $errors;
 }
 
-echo "=> Blacklist verification\n";
+echo "=> Blacklist structure verification\n";
+$blacklistEntries = [];
 if (file_exists(BLACKLIST_FILE)) {
     $blacklist = json_decode(@file_get_contents(BLACKLIST_FILE), true);
     if (is_array($blacklist)) {
         $errorsCount += verifyBlacklist($blacklist);
+
+        $blacklistEntries = array_combine(array_keys($blacklist), array_column($blacklist, 'reason'));
 
     } else {
         echo "\t- Blacklist file is damaged\n";
@@ -62,7 +65,6 @@ if (file_exists(BLACKLIST_FILE)) {
     echo "\t- Blacklist file not found\n";
     $errorsCount++;
 }
-
 
 // ******************** Verify classic entries ********************
 echo "=> Classic Swot database verification\n";
@@ -81,6 +83,13 @@ foreach ($classicDbRegexIterator as $entry) {
     if (!preg_match(DOMAIN_REGEX, $domain)) {
         echo "\t- Classic entry $entry (domain: $domain) is not a valid domain\n";
         $errorsCount++;
+    }
+
+    foreach ($blacklistEntries as $blacklistDomain => $reason) {
+        if (substr($domain, -strlen($blacklistDomain)) === $blacklistDomain) {
+            echo "\t- Classic entry $entry (domain: $domain) matched blacklist entry $blacklistDomain (reason: $reason)\n";
+            $errorsCount++;
+        }
     }
 
     if (substr($domain, 0, 4) === 'www.') {

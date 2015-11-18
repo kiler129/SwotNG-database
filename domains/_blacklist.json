@@ -1,20 +1,20 @@
 {
-  "si.edu": {
+  ".si.edu": {
     "reason": "Not an academic institution."
   },
-  "america.edu": {
+  ".america.edu": {
     "reason": "Not an academic institution."
   },
-  "californiacolleges.edu": {
+  ".californiacolleges.edu": {
     "reason": "Website allowed creation of e-mail addresses without verification."
   },
-  "australia.edu": {
+  ".australia.edu": {
     "reason": "Not an academic institution."
   },
-  "cet.edu": {
+  ".cet.edu": {
     "reason": "Not an academic institution."
   },
-  "folger.edu": {
+  ".folger.edu": {
     "reason": "Not an academic institution."
   }
 }
