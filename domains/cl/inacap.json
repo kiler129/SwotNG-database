@@ -1,0 +1,14 @@
+{
+  "name": "Universidad Tecnol\u00f3gica De Chile Inacap",
+  "is-wildcard": false,
+  "added": "2013-12-23T09:33:41+01:00",
+  "modified": "2015-11-18T02:59:42+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": true,
+    "url": "http://www.inacap.cl/tportalvp/acerca-de-inacap/about-inacap/about-inacap/home-about-inacap"
+  }
+}
