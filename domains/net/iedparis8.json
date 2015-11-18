@@ -1,0 +1,16 @@
+{
+  "name": "Institut d'Enseignement \u00e0 Distance - Universit\u00e9 PARIS 8",
+  "local-name": "Institut d'Enseignement \u00e0 Distance - Universit\u00e9 PARIS 8",
+  "country": "FR",
+  "is-wildcard": false,
+  "added": "2013-12-23T09:33:41+01:00",
+  "modified": "2015-11-18T02:48:03+01:00",
+  "blacklist": {
+    "starts-with": [],
+    "ends-with": []
+  },
+  "verification": {
+    "is-verified": true,
+    "url": "http://www.iedparis8.net/ied/article.php?id_article=132"
+  }
+}
