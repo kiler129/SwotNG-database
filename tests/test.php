@@ -7,8 +7,8 @@ define('BLACKLIST_FILE', DOMAINS_DIRECTORY . '/_blacklist.json');
 define('DOMAIN_REGEX', '/[a-z0-9][a-z0-9-]{0,61}[a-z0-9](?<gTLD>\.(biz|com|edu|gov|info|int|mil|name|net|org|aero|asia|cat|coop|jobs|mobi|museum|pro|tel|travel|arpa|root))?(?(gTLD)(\.(a[c-gil-oq-uwxz]|b[abd-jmnorstvwyz]|c[acdf-ik-oruvxyz]|d[ejkmoz]|e[ceghrstu]|f[ijkmor]|g[abd-ilmnp-tuwy]|h[kmnrtu]|i[delmnoq-t]|j[emop]|k[eghimnprwyz]|l[abcikr-uvy]|m[acdeghk-z]|n[acefgilopruzc]|om|p[ae-hk-nrstwy]|qa|r[eosuw]|s[a-eg-ortuvyz]|t[cdfghj-prtvwz]|u[agksyz]|v[aceginu]|w[fs]|y[etu]|z[amw]))?|(\.(a[c-gil-oq-uwxz]|b[abd-jmnorstvwyz]|c[acdf-ik-oruvxyz]|d[ejkmoz]|e[ceghrstu]|f[ijkmor]|g[abd-ilmnp-tuwy]|h[kmnrtu]|i[delmnoq-t]|j[emop]|k[eghimnprwyz]|l[abcikr-uvy]|m[acdeghk-z]|n[acefgilopruzc]|om|p[ae-hk-nrstwy]|qa|r[eosuw]|s[a-eg-ortuvyz]|t[cdfghj-prtvwz]|u[agksyz]|v[aceginu]|w[fs]|y[etu]|z[amw])))/i');
 
 $errorsCount = 0;
-if (version_compare(PHP_VERSION, '5.4.0', '<')) {
-    echo 'Your PHP version is too old - you have ' . PHP_VERSION . " while 5.4.0 or higher is required.\n";
+if (version_compare(PHP_VERSION, '5.5.0', '<')) {
+    echo 'Your PHP version is too old - you have ' . PHP_VERSION . " while 5.5.0 or higher is required.\n";
     exit(1);
 }
 
