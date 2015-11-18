@@ -1,5 +1,6 @@
 {
   "name": "Sim\u00f3n Bol\u00edvar University",
+  "local-name": "Universidad Sim\u00f3n Bol\u00edvar",
   "is-wildcard": false,
   "added": "2013-12-23T09:33:41+01:00",
   "modified": "2015-11-17T09:27:11+01:00",
@@ -8,6 +9,7 @@
     "ends-with": []
   },
   "verification": {
-    "is-verified": false
+    "is-verified": true,
+    "url": "http://www.usb.ve/home/node/56"
   }
 }
